@@ -11,13 +11,21 @@ module.exports = {
   module: {
     loaders: [
       {
-        test:/\.js$/,
+        test:/\.(js|jsx)$/,
         exclude:'/node_modules',
         loader:'babel',
         query: {
           presets: ['react', 'es2015']
         }
-      }
+      },
+      {
+        test: /\.css$/,
+        loader: "style!css"
+      },
+      {
+        test: /\.less$/,
+        loader: "style-loader!css-loader!less-loader"
+      },
     ]
   }
 }
