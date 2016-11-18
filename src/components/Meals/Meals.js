@@ -1,15 +1,12 @@
 import React from "react";
-
-const mealsImgs = [
-  {url: "", alt: ""}
-];
+import mealsData from "./mealsData.json";
 
 const MealsSection = () => (
   <section className="meals">
     <div className="meals__container">
       <ul>
-        { mealsImgs.map((meal, index) => (
-          <figure className="meals__photo">
+        { mealsData.map((meal, index) => (
+          <figure key={index} className="meals__photo">
             <img src={meal.url} alt={meal.alt}/>
           </figure>
         ))}

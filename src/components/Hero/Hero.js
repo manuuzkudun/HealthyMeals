@@ -2,6 +2,7 @@ import React from "react";
 import MainNav from "./MainNav";
 import MainCta from "./MainCta";
 import Logo from "./Logo";
+import style from "./hero.less";
 
 const Hero = () => (
   <section className="hero">

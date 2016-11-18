@@ -1,0 +1,22 @@
+[
+  {
+    "imgUrl": "",
+    "name": "Lisbon",
+    "features": ["1600+ happy eaters","60+ top chefs","@omnifood_lx"]
+  },
+  {
+    "imgUrl": "",
+    "name": "San Francisco",
+    "features": ["3700+ happy eaters","160+ top chefs","@omnifood_sf"]
+  },
+  {
+    "imgUrl": "",
+    "name": "Berlin",
+    "features": ["2300+ happy eaters","110+ top chefs","@omnifood_lx"]
+  },
+  {
+    "imgUrl": "",
+    "name": "London",
+    "features": ["1200+ happy eaters","50+ top chefs","@omnifood_lx"]
+  }
+]
