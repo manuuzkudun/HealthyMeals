@@ -1,5 +1,6 @@
 import React from "react";
 import Step from "./Step";
+import style from "./steps.less";
 import stepsData from "./stepsData.json";
 
 const Steps = () => (

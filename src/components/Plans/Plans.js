@@ -1,6 +1,7 @@
 import React from "react";
 import plansData from "./plansData.json";
 import Plan from "./Plan";
+import style from "./plans.less";
 
 const Plans = () => (
   <section className="plans">

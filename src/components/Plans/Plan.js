@@ -9,7 +9,7 @@ const Plan = (props) => (
     </div>
     <div className="plan__features">
       <ul> { props.data.features.map( (feature, index) => (
-        <li className="plan__feature">
+        <li className="plan__feature" key={index}>
             <i className={feature.icon} />
             {feature.text}
         </li>

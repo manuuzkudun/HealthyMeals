@@ -1,0 +1,32 @@
+@import "../../styles/style.less";
+
+section.testimonials {
+  .section;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/back-customers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  .testimonials__container {
+    .container;
+
+    .testimonials__headline {
+      .section-headline;
+      color: #fff;
+    }
+
+    .testimonials__list {
+      overflow: hidden;
+      .testimonial {
+        display: block;
+        width: 33.33%;
+        float: left;
+        color: #fff;
+        .testimonial__img {
+          height: 45px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

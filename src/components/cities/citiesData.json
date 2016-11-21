@@ -1,21 +1,21 @@
 [
   {
-    "imgUrl": "",
+    "imgUrl": "./src/components/cities/img/lisbon.jpg",
     "name": "Lisbon",
     "features": ["1600+ happy eaters","60+ top chefs","@omnifood_lx"]
   },
   {
-    "imgUrl": "",
+    "imgUrl": "./src/components/cities/img/san-francisco.jpg",
     "name": "San Francisco",
     "features": ["3700+ happy eaters","160+ top chefs","@omnifood_sf"]
   },
   {
-    "imgUrl": "",
+    "imgUrl": "./src/components/cities/img/berlin.jpg",
     "name": "Berlin",
     "features": ["2300+ happy eaters","110+ top chefs","@omnifood_lx"]
   },
   {
-    "imgUrl": "",
+    "imgUrl": "./src/components/cities/img/london.jpg",
     "name": "London",
     "features": ["1200+ happy eaters","50+ top chefs","@omnifood_lx"]
   }

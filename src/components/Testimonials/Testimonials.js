@@ -1,6 +1,7 @@
 import React from "react";
 import Testimonial from "./Testimonial";
 import testimonialsData from "./testimonialsData.json";
+import style from "./testimonials.less";
 
 const Testimonials = () => (
   <section className="testimonials">

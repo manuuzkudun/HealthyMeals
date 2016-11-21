@@ -2,16 +2,16 @@ import React from "react";
 import MainNav from "./MainNav";
 import MainCta from "./MainCta";
 import Logo from "./Logo";
-import style from "./hero.less";
+import style from "./header.less";
 
-const Hero = () => (
-  <section className="hero">
-    <div className="hero__container">
+const Header = () => (
+  <header className="header">
+    <div className="header__container">
       <Logo />
       <MainNav />
       <MainCta />
     </div>
-  </section>
+  </header>
 );
 
-export default Hero;
+export default Header;
