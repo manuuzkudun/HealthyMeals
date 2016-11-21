@@ -1,7 +1,7 @@
 import React from "react";
 import mealsData from "./mealsData.json";
 
-const MealsSection = () => (
+const Meals = () => (
   <section className="meals">
     <div className="meals__container">
       <ul>
@@ -15,4 +15,4 @@ const MealsSection = () => (
   </section>
 );
 
-export default MealsSection;
+export default Meals;

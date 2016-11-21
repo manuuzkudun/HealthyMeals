@@ -1,0 +1,38 @@
+[
+  {
+    "index": "1",
+    "name": "Premium",
+    "price": "399",
+    "priceMonth": "13.30",
+    "features": [
+      { "text": "1 meal every day", "icon": "icon" },
+      { "text": "Order 24/7", "icon": "icon" },
+      { "text": "Access to newest creations", "icon": "icon" },
+      { "text": "Free delivery", "icon": "icon" }
+    ]
+  },
+  {
+    "index": "1",
+    "name": "Premium",
+    "price": "399",
+    "priceMonth": "13.30",
+    "features": [
+      { "text": "1 meal every day", "icon": "icon" },
+      { "text": "Order 24/7", "icon": "icon" },
+      { "text": "Access to newest creations", "icon": "icon" },
+      { "text": "Free delivery", "icon": "icon" }
+    ]
+  },
+  {
+    "index": "1",
+    "name": "Premium",
+    "price": "399",
+    "priceMonth": "13.30",
+    "features": [
+      { "text": "1 meal every day", "icon": "icon" },
+      { "text": "Order 24/7", "icon": "icon" },
+      { "text": "Access to newest creations", "icon": "icon" },
+      { "text": "Free delivery", "icon": "icon" }
+    ]
+  }
+]
