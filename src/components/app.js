@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Header/Header";
-import Features from "./Features/Features";
-import Meals from "./Meals/Meals";
-import Steps from "./Steps/Steps";
+import Header from "./header/Header";
+import Features from "./features/Features";
+import Meals from "./meals/Meals";
+import Steps from "./steps/Steps";
 import Cities from "./cities/Cities";
-import Testimonials from "./Testimonials/Testimonials";
-import Plans from "./Plans/Plans";
-import Contact from "./Contact/Contact";
+import Testimonials from "./testimonials/Testimonials";
+import Plans from "./plans/Plans";
+import Contact from "./contact/Contact";
 
 const App = () => (
   <div>

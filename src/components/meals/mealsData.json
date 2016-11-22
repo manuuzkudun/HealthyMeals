@@ -1,0 +1,34 @@
+[
+  {
+    "imgUrl": "./src/components/meals/img/1.jpg",
+    "alt": "Meal 1"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/2.jpg",
+    "alt": "Meal 2"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/3.jpg",
+    "alt": "Meal 3"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/4.jpg",
+    "alt": "Meal 4"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/5.jpg",
+    "alt": "Meal 5"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/6.jpg",
+    "alt": "Meal 6"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/7.jpg",
+    "alt": "Meal 7"
+  },
+  {
+    "imgUrl": "./src/components/meals/img/8.jpg",
+    "alt": "Meal 8"
+  }
+]

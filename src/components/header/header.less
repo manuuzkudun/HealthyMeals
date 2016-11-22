@@ -1,0 +1,103 @@
+header.header {
+
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+
+  .header__container {
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1140px;
+    .logo {
+      float:left;
+      margin-top: 20px;
+      .logo__img {
+        height: 100px;
+        width: auto;
+      }
+    }
+
+    .main_cta {
+      position: absolute;
+      width: 1140px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      .main_cta__headline {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 240%;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        span {
+          display: block;
+        }
+      }
+      .main_cta_button {
+        display: inline-block;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 200px;
+        border: solid 1px #e67e22;
+        transition: background-color 0.3s, border 0.3s, color 0.3s;
+        margin-right: 15px;
+        &.main_cta_button--full:link,
+        &.main_cta_button--full:visited {
+          background-color: #e67e22;
+          color: #fff;
+
+        }
+        &.main_cta_button--full:hover,
+        &.main_cta_button--full:active
+        {
+          background-color: #cf6d17;
+          border: solid 1px #cf6d17;
+
+        }
+
+        &.main_cta_button--ghost:link,
+        &.main_cta_button--ghost:visited {
+          color:#e67e22;
+
+        }
+        &.main_cta_button--ghost:hover,
+        &.main_cta_button--ghost:hover
+        {
+          background-color: #cf6d17;
+          border: solid 1px #cf6d17;
+          color: #fff;
+
+        }
+
+      }
+    }
+
+    .main_nav {
+      float:right;
+      margin-top: 55px;
+      .main_nav__item {
+        display: inline-block;
+        margin-left: 40px;
+        .main_nav__link {
+          text-transform: uppercase;
+          color: #fff;
+          text-decoration: none;
+          font-size: 90%;
+          border-bottom: 2px solid transparent;
+          transition: border-bottom 0.3s;
+          padding: 8px 0;
+          &:hover {
+            border-bottom: 2px solid #e67e22;
+          }
+        }
+      }
+    }
+
+  }
+}

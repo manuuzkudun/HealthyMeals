@@ -1,14 +1,19 @@
 import React from "react";
 import mealsData from "./mealsData.json";
+import style from "./meals.less";
 
 const Meals = () => (
   <section className="meals">
     <div className="meals__container">
       <ul>
         { mealsData.map((meal, index) => (
-          <figure key={index} className="meals__photo">
-            <img src={meal.url} alt={meal.alt}/>
-          </figure>
+          <li key={index} className="meal">
+            <img
+              src={meal.imgUrl}
+              alt={meal.alt}
+              className="meal__img"
+              />
+          </li>
         ))}
       </ul>
     </div>

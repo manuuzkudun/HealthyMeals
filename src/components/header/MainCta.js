@@ -5,8 +5,8 @@ const MainCta = () => (
     <h1 className="main_cta__headline">Goodbye junk food.
       <span>Hello super healthy meals.</span>
     </h1>
-    <a href="#" className="main_cta_button main_cta_button--active">Im hungry</a>
-    <a href="#" className="main_cta_button">Show me more</a>
+    <a href="#" className="main_cta_button main_cta_button--full">Im hungry</a>
+    <a href="#" className="main_cta_button main_cta_button--ghost">Show me more</a>
   </div>
 );
 
