@@ -5,7 +5,7 @@ import style from "./meals.less";
 const Meals = () => (
   <section className="meals">
     <div className="meals__container">
-      <ul>
+      <ul className="meals__list">
         { mealsData.map((meal, index) => (
           <li key={index} className="meal">
             <img

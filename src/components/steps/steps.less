@@ -7,7 +7,48 @@ section.steps {
 
     .steps__headline {
       .section-headline;
+    }
+    .steps__row {
+      .clearfix;
+      .steps__image {
+        float:left;
+        display: block;
+        width: 50%;
+        padding-right: 3%;
+        .clearfix;
+        img {
+          width: 50%;
+          float: right;
+        }
 
+      }
+      .steps__list {
+        float: left;
+        display: block;
+        width: 50%;
+        .step {
+          .clearfix;
+          margin-bottom: 50px;
+          .step__index {
+            color: #e67e22;
+            font-size: 150%;
+            height: 54px;
+            width: 54px;
+            border: 2px solid #e67e22;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            margin-right: 25px;
+            float: left;
+            padding: 5px;
+          }
+        }
+        .steps__btn {
+          height: 50px;
+          width: auto;
+          margin-right: 10px;
+        }
+      }
     }
   }
 }

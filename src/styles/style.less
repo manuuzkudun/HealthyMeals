@@ -46,3 +46,14 @@ html {
 .section {
   padding: 60px 0;
 }
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

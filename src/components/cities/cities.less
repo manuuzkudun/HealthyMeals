@@ -15,9 +15,36 @@ section.cities {
         display: block;
         float: left;
         width: 25%;
+        padding: 0 1.5%;
+        .city__headline {
+          font-size: 110%;
+          margin-bottom: 15px;
+          font-weight: 300;
+          text-transform: uppercase;
+        }
         .city__img {
           width: 100%;
           height: auto;
+          margin-bottom: 15px;
+        }
+        .city__features{
+          list-style-type: none;
+          .city__feature {
+            display: block;
+            font-size: 90%;
+            margin-bottom: 5px;
+            .city__icon {
+              display: inline-block;
+              width: 30px;
+              text-align: center;
+              color: #e67e22;
+              font-size: 120%;
+              margin-right: 10px;
+              line-height: 120%;
+              vertical-align: middle;
+              margin-top: -5px;
+            }
+          }
         }
       }
     }
